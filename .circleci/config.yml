@@ -190,7 +190,7 @@ workflows:
               only:
                 - hot-fixes-2
                 - develop
-                - ssf-merged-to-new-develop
+                - ssf
       # Production builds are exectuted only on tagged commits to the
       # master branch.
       - "build-prod":
